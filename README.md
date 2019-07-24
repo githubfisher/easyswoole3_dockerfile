@@ -1,2 +1,7 @@
 # easyswoole3_dockerfile
-EasySwoole3.0 Dockerfile
+# 构建镜像
+  docker build -t easyswoole3 .
+# 运行容器
+  docker run -d -p 9501:9501 easyswoole3
+# 访问
+  http://localhost:9501
